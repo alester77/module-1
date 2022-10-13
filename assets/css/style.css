@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
@@ -14,10 +15,27 @@ a {
     text-decoration: none;
 }
 
+/*Combine to avoid repetition*/
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
-/*Moved above styling because it is element styling and it goes above class styling*/
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Combine to avoid repetition*/
+img {
+    max-height: 200px;
+}
+
+/*Moved some styling because it is element styling and it goes above class styling*/
 
 .header {
     padding: 20px;
@@ -35,18 +53,20 @@ p {
     color: #d9dcd6;
 }
 
-
-
-/*Combined three sections of headers into one. Changes to HTML made them unnecessary
-This is the section with the clickable tags*/
+/*Changed the div to nav in the HTML file so I had to update the three stylings below*/
 .header nav {
-    
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.header nav ul {
     list-style-type: none;
+}
+
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 
@@ -86,37 +106,20 @@ This is the section with the clickable tags*/
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /*Added color to avoid repetition*/
+    color: #ffffff;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .benefit-lead img {
@@ -174,21 +177,6 @@ This is the section with the clickable tags*/
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
