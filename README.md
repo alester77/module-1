@@ -8,6 +8,8 @@
 
 ## Authors and Acknowledgment
 ### Thank you to the instructor, TAs and students who provided useful information along the way and made the first challenge and two weeks of class informative and interesting.
+
+https://alester77.github.io/module-1/
  
 
 <img src="/assets/images/Screenshots/Screenshot1.png">
