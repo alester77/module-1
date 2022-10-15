@@ -1,4 +1,4 @@
-/*testing*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-/*Combine to avoid repetition*/
+/*Combined to avoid repetition*/
 p {
     font-size: 18px;
 }
@@ -31,7 +31,7 @@ h3 {
     text-align: center;
 }
 
-/*Combine to avoid repetition*/
+/*Combined to avoid repetition*/
 img {
     max-height: 200px;
 }
