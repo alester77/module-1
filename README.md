@@ -7,6 +7,9 @@
 #Authors and acknowledgement 
     ##Thank you to the instructor, TAs and students who provided useful information along the way and made the first two weeks of the course informative and interesting!  
 
-Screenshot1.png
-screenshot2.png    
+<img src="/assets/images/Screenshots/Screenshot1.png">/
+<img src="/assets/images/Screenshots/screenshot2.png">/
+
+
+
 
