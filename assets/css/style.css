@@ -82,11 +82,12 @@ img {
     background-position: center;
 }
 
+/* For SEO and Social Media Marketing images*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Image for Online Reputation Management */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -111,36 +112,29 @@ img {
     color: #ffffff;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-}
-
+/* Added margin bottoms to avoid congestion. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    margin-bottom: 32px;
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    margin-bottom: 32px;
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    margin-bottom: 32px;
 }
 
+/* Added max-height to avoid congestion*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -148,6 +142,7 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-height: 200px;
 }
 
 .online-reputation-management {
@@ -157,6 +152,7 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-height: 200px;
 }
 
 .social-media-marketing {
@@ -166,17 +162,6 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
     max-height: 200px;
 }
 
