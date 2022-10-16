@@ -15,6 +15,5 @@ https://alester77.github.io/module-1/
 <img src="/assets/images/Screenshots/Screenshot1.png">
 <img src="/assets/images/Screenshots/screenshot2.png">
 
-<link rel="Horiseon Website" href="https://alester77.github.io/module-1/">
 
 
